@@ -10,11 +10,27 @@ h1 {
     border: none;
     color: white;
     font-weight: bold;
+    cursor: pointer;
 }
 .update {
     padding: 9px 19px 8px 19px;
-    background: #db3c2f;
+    background: #de3e30;
     border: none;
     color: white;
     font-weight: bold;
+    cursor: pointer;
+}
+.button1, .button2, .button3 {
+    padding: 9px 19px 8px 19px;
+    background: #eba91a;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.button2 {
+    background: #18be95;
+}
+.button3 {
+    background: #a30cc9;
 }

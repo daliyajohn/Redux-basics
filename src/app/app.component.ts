@@ -4,7 +4,7 @@ import { Store } from '@ngrx/store';
 import { Observable } from 'rxjs/Observable';
 
 interface AppState {
-  msg: string;
+  sample1: string;
 }
 
 @Component({
@@ -16,7 +16,7 @@ interface AppState {
 export class AppComponent {
   Output$: Observable<string>;
   constructor(private store: Store<AppState>) {
-    this.Output$ = this.store.select('msg');
+    this.Output$ = this.store.select('sample1');
   }
   save() {
     this.store.dispatch({type: 'SAVE'});
