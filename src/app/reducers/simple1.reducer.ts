@@ -1,7 +1,7 @@
 import { Store } from '@ngrx/store';
 import { Action } from '@ngrx/store';
 
-export function simpleReducer1 (state: string= 'hello', action: Action ) {
+export function SimpleReducer1 (state: string= 'hello', action: Action ) {
     switch (action.type) {
         case 'SAVE':
         console.log(action.type);

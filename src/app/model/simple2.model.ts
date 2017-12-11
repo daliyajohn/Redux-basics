@@ -1,5 +1,6 @@
 
-export interface SampleState2 {
+export interface SimpleState2 {
     text: string;
     value: number;
 }
+

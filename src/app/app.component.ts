@@ -2,11 +2,11 @@ import { Component } from '@angular/core';
 
 import { Store } from '@ngrx/store';
 import { Observable } from 'rxjs/Observable';
-import { SampleState2 } from './model/simple2.model';
+import { SimpleState2 } from './model/simple2.model';
 
-interface AppState {
+export interface AppState {
   sample1: string;
-  sample2: SampleState2;
+  Post: SimpleState2;
 }
 
 @Component({
