@@ -5,10 +5,10 @@ export function simpleReducer1 (state: string= 'hello', action: Action ) {
     console.log(action.type, state);
     switch (action.type) {
         case 'SAVE':
-            return state = 'State saved';
+            return state = 'saved';
         case 'UPDATE':
-            return state = 'State updated';
+            return state = 'updated';
         default:
-            return state = 'default value 0';
+            return state = 'default';
     }
 }
