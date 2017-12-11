@@ -4,3 +4,17 @@ p, h2 {
 h1 {
     margin-top: 6em;
 }
+.save {
+    padding: 9px 19px 8px 19px;
+    background: #cc58ad;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+.update {
+    padding: 9px 19px 8px 19px;
+    background: #db3c2f;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
