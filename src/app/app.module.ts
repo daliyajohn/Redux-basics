@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { StoreModule } from '@ngrx/store';
+import { simpleReducer1 } from './reducers/simple1.reducer';
 
 @NgModule({
   declarations: [
